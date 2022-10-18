@@ -26,7 +26,7 @@ function Home() {
               <a href="#">Contact us</a>
             </li>
             <li>
-              <a href={"PrivacyPolicy"}>Privacy Policy</a>
+              <a href={"/stepbystep/PrivacyPolicy"}>Privacy Policy</a>
             </li>
           </ul>
           {/* <button className="btn" type="button">

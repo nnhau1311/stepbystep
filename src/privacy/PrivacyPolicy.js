@@ -25,7 +25,7 @@ function PrivacyPolicy() {
               <a href="#">Contact us</a>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="/stepbystep/PrivacyPolicy">Privacy Policy</a>
             </li>
           </ul>
           {/* <button className="btn" type="button">

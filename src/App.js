@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/stepbystep" element={<Home />} />
-        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/stepbystep/PrivacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
   );
