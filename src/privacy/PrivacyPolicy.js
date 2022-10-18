@@ -13,7 +13,7 @@ function PrivacyPolicy() {
         <nav class="site-navigation">
           <ul class="nav">
             <li>
-              <a href="/">Home</a>
+              <a href="/stepbystep">Home</a>
             </li>
             <li>
               <a href="#">About</a>
