@@ -1,0 +1,15 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./home/Home";
+import PrivacyPolicy from "./privacy/PrivacyPolicy";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/stepbystep" element={<Home />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+export default App;
