@@ -15,14 +15,14 @@ function PrivacyPolicy() {
             <li>
               <a href="/stepbystep">Home</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#">About</a>
             </li>
             <li>
               <a href="#">Blog</a>
-            </li>
+            </li> */}
             <li>
-              <a href="#">Contact us</a>
+              <a href="/stepbystep/ContactUs">Contact us</a>
             </li>
             <li>
               <a href="/stepbystep/PrivacyPolicy">Privacy Policy</a>

@@ -1,7 +1,7 @@
 import "../App.css";
 import logo_app from "../image/logo_app.png";
 import splash from "../image/splash.png";
-function Home() {
+function ContactUs() {
   return (
     <div className="App">
       <div class="site-header">
@@ -36,21 +36,33 @@ function Home() {
       </div>
       <div className="bg-body1">
         <img className="splash" src={splash} />
-        <div className="bg-body">
-          <p className="content-app">
-            Step Step: An application can count the number of steps taken by the
-            user to accumulate points.
-            <br /> Based on that point the user can be quoted a fund account to
-            make the program from perfect or protect the environment.
-            <br /> In addition, the development of the remaining pedometer
-            application has different values ​​for individuals in particular and
-            for shared files such as: helping with health training, bonding
-            solidarity; moreover, it still has practical and meaningful values
-            ​​for the community.
+        <div
+          className="bg-body"
+          style={{ flexDirection: "column", alignItems: "center" }}
+        >
+          <h3>Contact Us</h3>
+          <p style={{ fontSize: 18, color: "white", textAlign: "center" }}>
+            For any questions and support requests, please contact
+            <br /> the information below.
           </p>
+          <div className="contact">
+            <p style={{ fontSize: 20, fontWeight: "bold" }}>
+              Email:{" "}
+              <a style={{}} href="mailto:fis.tdc.hcm@gmail.com">
+                fis.tdc.hcm@gmail.com
+              </a>
+            </p>
+            <p style={{ fontSize: 20, fontWeight: "bold" }}>
+              Address: FPT Tan Thuan 3, Sang Tao Street, Tan Thuan Dong Ward,
+              District 7, Ho Chi Minh City
+            </p>
+            <p style={{ fontSize: 20, fontWeight: "bold" }}>
+              Hotline: +84 944 590 453
+            </p>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-export default Home;
+export default ContactUs;
